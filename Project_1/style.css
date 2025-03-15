@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: rgb(14, 14, 14);
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+section img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 100;
+}
+section p {
+  text-align: center;
+  font-weight: 100;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin: 0.9rem 0;
+  opacity: 0.6;
+}
+section p br {
+  display: none;
+}
+
+@media (min-width: 1020px) {
+  section img {
+    width: 28%;
+  }
+  section h1 {
+    font-size: 8rem;
+  }
+  section p {
+    font-size: 1.8rem;
+  }
+  section p br {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
